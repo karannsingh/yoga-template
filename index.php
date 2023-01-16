@@ -19,10 +19,10 @@ if(isset($_POST['submit'])){
 	$mail->Port=587;
 	$mail->SMTPSecure="tls";
 	$mail->SMTPAuth=true;
-	$mail->Username="karannsingh2311@gmail.com";
-	$mail->Password="uirakxeepjsobihp";
-	$mail->SetFrom("karannsingh2311@gmail.com");
-	$mail->addAddress("karannsingh0@gmail.com");
+	$mail->Username="UserEmailID";
+	$mail->Password="EmailID-Password";
+	$mail->SetFrom("fromEmailID");
+	$mail->addAddress("RecevierEmailID");
 	$mail->addAddress($email);
 	$mail->IsHTML(true);
 	$mail->Subject=$subject;
