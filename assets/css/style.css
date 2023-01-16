@@ -1,0 +1,751 @@
+@charset "utf-8";
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
+blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img,
+ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center,
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody,
+tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure,
+figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	font-family: Verdana, Geneva, sans-serif;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;  
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+/* Force scrollbar */
+html { 
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+/*For all*/
+/*button{
+	margin-top: 50px;	
+}*/
+
+/* Nav Bar */
+.navbar{
+	height: 120px;
+	position: relative;
+}
+
+.navbar .navbar-brand img{
+	top: 20px;
+	height: 75px;
+	position: absolute;	
+}
+
+.navbar-nav a{
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.navbar-nav a:hover{
+	background-color: #f0cdc8;
+}
+
+/* Balance Your Body and Mind */
+
+#yoga-banner h2{	
+	font-size: 84px;
+	font-weight: 800;
+	text-align: left;
+	margin-top: 20%;
+	margin-bottom: 10%;
+}
+
+#yoga-banner p{
+	font-size: 24px;
+	padding: 0px 60px 0px 0px;
+}
+
+#yoga-banner button{	
+	background-color: #f0cdc8;
+	text-transform: uppercase;
+	padding: 10px 35px 10px 35px;
+	font-weight: 600;
+	margin-top: 10%;
+}
+
+#yoga-banner button:hover{
+	background-color: black;
+	color: #f0cdc8;
+}
+
+.yoga-img{
+	position: absolute;	
+}
+
+#yoga-banner .img-1{
+	top: -30px;
+	left: -50px;
+}
+
+#yoga-banner .img-2{
+	top: 65%;
+	left: 30%;
+}
+
+#yoga-banner .img-3{
+	top: 30%;
+	left: 25%;
+}
+
+#yoga-banner .img-4{
+	top: -30px;
+	right: -150px;
+}
+
+#yoga-banner .img-5, .img-6{
+	bottom: -40px;
+	right: -50px;
+}
+
+/* Pregnant Women Program */
+
+#pregnant-program{
+	position: relative;	
+}
+
+#pregnant-program img{
+	position: absolute;	
+}
+
+#pregnant-program h2{	
+	font-size: 73px;
+	font-weight: 800;
+	text-align: left;
+	margin-top: 30%;
+}
+
+#pregnant-program p{
+	margin-top: 10%;
+	font-size: 24px;
+	padding: 0px 60px 0px 0px;
+}
+
+#pregnant-program button{
+	margin-top: 15%;
+	background-color: #f0cdc8;
+	text-transform: uppercase;
+	padding: 10px 35px 10px 35px;
+	font-weight: 600;
+	margin-bottom: 30%;	
+}
+
+#pregnant-program button:hover{
+	background-color: black;
+	color: #f0cdc8;
+}
+
+/* Multiple Program */
+
+#multiple-program{	
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+#multiple-program .card{
+	border: none;
+	align-items: center;
+}
+
+#multiple-program .card .img-8{
+	position: relative;
+	top: 20%;
+}
+
+#multiple-program .card .card-img{
+	height: 200px;	
+}
+
+#multiple-program .card .card-body h3{
+	font-size: 24px;
+	font-weight: 600;
+	margin: 10px;
+}
+
+#multiple-program .card .card-body p{
+	font-size: 18px;
+}
+
+/* Breathing Yoga */
+
+#breathing-yoga{
+	position: relative;
+	margin: 25px 0px 25px 0px;
+}
+
+#breathing-yoga h2{	
+	font-size: 70px;
+	font-weight: 800;
+	text-align: left;
+	position: relative;
+	z-index: 1;
+	margin-top: 10%;
+	margin-bottom: 5%;
+}
+
+#breathing-yoga p{
+	font-size: 24px;
+	padding: 0px 60px 0px 0px;
+}
+
+#breathing-yoga button{	
+	background-color: #f0cdc8;
+	text-transform: uppercase;
+	padding: 10px 35px 10px 35px;
+	font-weight: 600;
+	margin-top: 5%;
+}
+
+#breathing-yoga button:hover{
+	background-color: black;
+	color: #f0cdc8;
+}
+
+#breathing-yoga .img-7{
+	bottom: 0;
+	left: 0;
+}
+
+#breathing-yoga .img-9{
+	bottom: 0;
+	right: 0;
+}
+
+#breathing-yoga .img-10{
+	top: 0;
+	left: 0;
+}
+
+#breathing-yoga .img-11{
+	top: 0;
+	right: 0;
+}
+
+#breathing-yoga .img-12{
+	top: 0;
+	left: 0;
+}
+
+#breathing-yoga .img-13{
+	bottom: -100px;
+	left: -50px;
+}
+
+#breathing-yoga .breath-img{
+	position: relative;
+	padding: 60px;	
+}
+
+/* Join Now */
+
+#join-now .container-fluid{
+	position: relative;	
+	height: 600px;
+}
+
+#join-now h2{	
+	font-size: 70px;
+	font-weight: 800;
+	text-align: left;
+	margin-top: 20%;
+	position: relative;
+	z-index: 1;
+	padding-right: 20%;
+	margin-bottom: 5%;
+}
+
+#join-now p{
+	font-size: 24px;
+	padding: 0px 60px 0px 0px;
+}
+
+#join-now button{	
+	margin-top: 5%;
+	background-color: #f0cdc8;
+	text-transform: uppercase;
+	padding: 10px 35px 10px 35px;
+	font-weight: 600;
+}
+
+#join-now button:hover{
+	background-color: black;
+	color: #f0cdc8;
+}
+
+#join-now .img-14{
+	top: 20%;
+	left: 0;
+}
+
+/*Gallery*/
+
+#gallery{
+	margin: 75px 0px 100px 0px;
+	position: relative;
+}
+
+#gallery h5{
+	font-size: 64px;
+	font-weight: 800;
+}
+
+#gallery p{
+	font-size: 24px;
+	padding: 5% 15% 5% 15%;
+}
+
+#gallery .card{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#gallery .card .card-body h3{
+	font-size: 32px;
+	font-weight: 600;
+}
+
+#gallery .card .card-body p{
+	font-size: 18px;
+	padding: 20px 10px 20px 10px;
+}
+
+#gallery .img-10{
+	top: 10%;
+	left: 5%;
+}
+
+#gallery .img-14{
+	top: -107px;
+	right: -100px;
+}
+
+#gallery .img-15{
+	bottom: -50px;
+	right: 50px;
+}
+
+#gallery .img-16{
+	bottom: -123px;
+	left: -30px;
+}
+
+#gallery .img-17{
+	top: 70%;
+	left: 30%;
+}
+
+/*Video Yoga*/
+
+#video-yoga{
+	position: relative;
+	background-color: #f0cdc8;
+	padding: 10% 0% 10% 0%;
+}
+
+#video-yoga .img-9{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+	filter: brightness(60%);
+}
+
+#video-yoga h2{	
+	font-size: 62px;
+	font-weight: 800;
+	text-align: left;	
+	position: relative;
+	z-index: 1;
+	padding-right: 20%;
+	margin-bottom: 5%;
+}
+
+#video-yoga p{
+	font-size: 24px;
+	padding: 0px 60px 0px 0px;
+	margin-bottom: 5%;
+}
+
+#video-yoga ul{
+	list-style: none;
+}
+
+#video-yoga ul li{
+	display: inline-block;
+	font-size: 38px;
+	margin: 0% 10% 0% 0%;	
+}
+
+.play-btn{
+	color: white;
+	font-size: 100px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+}
+
+/*Get In Touch*/
+
+#contact{
+	margin: 75px 0px 100px 0px;
+	position: relative;
+}
+
+#contact h5{
+	font-size: 64px;
+	font-weight: 800;
+}
+
+#contact p{
+	font-size: 24px;
+	padding: 5% 15% 5% 15%;
+}
+
+#contact .form-group input, textarea{
+	border: 3px solid #c9cdd1!important;
+	margin: 0px 0px 50px 0px!important;
+	font-size: 20px!important;
+	padding: 15px 30px 15px 30px!important;
+	background-color: #e8e9eb!important;
+}
+
+#contact button{
+	background-color: #f0cdc8;
+	text-transform: uppercase;
+	padding: 10px 35px 10px 35px;
+	font-weight: 600;
+}
+
+#contact button:hover{
+	background-color: black;
+	color: #f0cdc8;
+}
+
+#contact .img-10{
+	top: 10%;
+	left: 5%;
+}
+
+#contact .img-14{
+	top: -107px;
+	right: -100px;
+}
+
+#contact .img-15{
+	bottom: -50px;
+	right: 50px;
+}
+
+#contact .img-16{
+	bottom: -123px;
+	left: -30px;
+}
+
+#contact .img-17{
+	top: 70%;
+	left: 30%;
+}
+
+/*Footer*/
+
+footer{
+	background-color: #444e5a;
+	color: white;
+	padding: 75px 0px 75px 0px;
+}
+
+footer h2{
+	font-size: 28px;
+	font-weight: 800;
+}
+
+footer p{
+	font-size: 18px;
+	margin-top: 30px;
+}
+
+footer .footer-logo{
+	filter: brightness(100);
+	margin-bottom: 15px;
+}
+
+footer h3{
+	font-size: 18px;
+	margin-top: 5px;
+}
+
+footer .footer-head{
+	font-size: 20px;
+	font-weight: 800;
+}
+
+footer .footer-menu ul li{
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+
+footer ul{
+	list-style: none;
+}
+
+footer .footer-icon li{
+	display: inline-block;
+	font-size: 28px;
+	margin-top: 15px;
+	margin-right: 20px;
+}
+
+footer .footer-icon li:hover{
+	color: #f0cdc8;
+}
+
+/* For Mobile Responsive */
+@media only screen and (max-width: 768px) {
+	.navbar-nav .nav-item{
+		position: relative;
+		z-index: 1;
+	}
+	.img-1, .img-2, .img-3, .img-4, .img-5, .img-6, .img-7, .img-10, .img-11, .img-12, .img-13, .img-14, .img-15, .img-16, .img-17, .img-18, .img-19{
+		/*display: none;*/
+		height: 100px;
+		width: 100px;
+	}
+
+	#yoga-banner h2{	
+		font-size: 48px;
+		font-weight: 600;
+		margin-top: 0px;
+		margin-bottom: 15px;
+	}
+
+	#yoga-banner p{
+		font-size: 18px;
+	}
+
+	#yoga-banner button{	
+		margin-top: 15px;
+		margin-bottom: 10%;
+	}
+
+	/* Pregnant Women Program */
+
+	#pregnant-program h2{	
+		font-size: 48px;
+		font-weight: 600;
+		margin-top: 10px;
+	}
+
+	#pregnant-program p{
+		margin-top: 15px;
+		font-size: 18px;
+	}
+
+	#pregnant-program button{
+		margin-top: 15px;
+		padding: 10px 35px 10px 35px;
+		font-weight: 600;
+		margin-bottom: 10%;	
+	}
+
+	/* Multiple Program */
+
+	#multiple-program{	
+		margin-top: 0%;
+		margin-bottom: 0%;
+	}
+
+	#multiple-program .card .card-img{
+		height: 150px;	
+	}
+
+	/* Breathing Yoga */
+
+	#breathing-yoga h2{	
+		font-size: 48px;
+		font-weight: 800;
+		margin-top: 10%;
+		margin-bottom: 20px;
+	}
+
+	#breathing-yoga p{
+		font-size: 24px;
+		padding: 0px 60px 0px 0px;
+	}
+
+	#breathing-yoga button{
+		margin-top: 5%;
+		margin-bottom: 10%;
+	}
+
+	/* Join Now */
+
+	#join-now .container-fluid{
+		height: auto;
+	}
+
+	#join-now h2{	
+		font-size: 48px;
+		font-weight: 600;
+		text-align: right;
+		margin-top: 5%;
+		padding-left: 20%;
+		padding-right: 0px;
+		margin-bottom: 15px;
+	}
+
+	#join-now p{
+		font-size: 18px;
+		padding: 0% 0% 0% 50%;
+		text-align: right;
+	}
+
+	#join-now button{
+		float: right;	
+		margin-top: 5%;
+		margin-bottom: 5%;
+	}
+
+	/*Gallery*/
+
+	#gallery{
+		margin: 25px 0px 75px 0px;
+		position: relative;
+	}
+
+	#gallery h5{
+		font-size: 48px;
+	}
+
+	#gallery p{
+		font-size: 18px;
+		padding: 5% 0% 5% 0%;
+	}
+
+	#gallery .card .card-body h3{
+		font-size: 24px;
+	}
+
+	#gallery .card{
+		margin-bottom: 25px;
+	}
+
+	#gallery .card .card-body p{
+		font-size: 18px;
+		padding: 20px 10px 20px 10px;
+	}
+
+	/*Video Yoga*/
+
+	#video-yoga{
+		padding: 10% 0% 10% 0%;
+	}
+
+	#video-yoga h2{	
+		font-size: 48px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+
+	#video-yoga p{
+		font-size: 18px;
+		padding: 0px 60px 0px 0px;
+		margin-bottom: 20px;
+	}
+
+	#video-yoga ul li{
+		font-size: 28px;
+		margin: 0px 25px 0px 0px;	
+	}
+
+	.play-btn{
+		font-size: 50px;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		-ms-transform: translate(-50%, -50%);
+	}
+
+	/*Get In Touch*/
+
+	#contact{
+		margin: 25px 0px 75px 0px;
+	}
+
+	#contact h5{
+		font-size: 48px;
+	}
+
+	#contact p{
+		font-size: 18px;
+		padding: 5% 0% 5% 0%;
+	}
+
+	#contact .form-group input, textarea{
+		border: 2px solid #c9cdd1!important;
+		margin: 0px 0px 20px 0px!important;
+		font-size: 20px!important;
+		padding: 5px 15px 5px 15px!important;
+	}
+
+	#contact button{
+		padding: 10px 35px 10px 35px;
+		margin-top: 20px;
+	}
+
+	#contact .img-16{
+		bottom: -85px;
+		left: -30px;
+	}
+
+	/*Footer*/
+
+	footer{
+		text-align: center;
+		padding: 50px 0px 50px 0px;
+	}
+
+	footer h2{
+		font-size: 24px;
+	}
+
+	footer p{
+		font-size: 18px;
+		margin-top: 10px;
+	}
+
+	footer h3{
+		font-size: 18px;
+		margin-top: 5px;
+	}
+
+	footer .footer-logo{
+		margin-top: 35px;
+	}
+
+	footer .footer-head{
+		margin-top: 20px;
+		font-size: 22px;
+	}
+
+	footer .footer-menu ul li{
+		font-size: 18px;
+		margin-bottom: 5px;
+	}
+
+	footer .footer-icon li{
+		font-size: 24px;
+		margin-top: 15px;
+		margin-right: 25px;
+	}
+}
